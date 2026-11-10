@@ -1,0 +1,6 @@
+# OPTIONAL: only needed for the Mic button. Niko runs fine without these.
+# Install:  python3 -m pip install -r requirements-microphone.txt
+# PyAudio also needs PortAudio first (needs Homebrew):  brew install portaudio
+# NOTE: Voice input sends your recorded audio to Google (recognize_google). It is not offline.
+SpeechRecognition>=3.8.1
+PyAudio>=0.2.11
